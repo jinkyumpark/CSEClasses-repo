@@ -1,9 +1,9 @@
 import java.util.Scanner;
 //Implement
 //1. Error handling: ask user to enter coordinate again if not valid, if user enters coordinate already filled in
-//2. Diagonal detection
+//-2. Diagonal detection
 
-public class FinalProject {
+public class ConnectFour {
 	//controller 
 	public static void main(String[] args) {
 		Scanner stdin = new Scanner(System.in);
@@ -62,12 +62,11 @@ public class FinalProject {
 					}
 				}
 				//diagonal direction up
-				if(i >= 3 && j >= 3) {
-					if(game[i][j] == game[i-1][j-1] && game[i][j] == game[i-2][j-2] && game[i][j] == game[i-3][j-3] && game[i][j] != -1) {
+				if(i >= 3 && j+3 < game[0].length) {
+					if(game[i][j] == game[i-1][j+1] && game[i][j] == game[i-2][j+2] && game[i][j] == game[i-3][j+3] && game[i][j] != -1) {
 						inProgress = false;
 					}
 				}
-
 			}
 		}
 		return inProgress;
@@ -108,8 +107,8 @@ public class FinalProject {
 					}
 				}
 				//diagonal direction up
-				if(i >= 3 && j >= 3) {
-					if(game[i][j] == game[i-1][j-1] && game[i][j] == game[i-2][j-2] && game[i][j] == game[i-3][j-3] && game[i][j] != -1) {
+				if(i >= 3 && j+3 < game[0].length) {
+					if(game[i][j] == game[i-1][j+1] && game[i][j] == game[i-2][j+2] && game[i][j] == game[i-3][j+3] && game[i][j] != -1) {
 						if(game[i][j] == 0) {
 							whoWins = 0;
 						}else {
