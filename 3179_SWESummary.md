@@ -151,3 +151,12 @@ why? SW crisis: Big, Many, Long
 1. Initial Phase
 2. Sprint Cycles
 3. Project Closure Phase
+
+# 4 - Requirement Engineering -> SRS
+- Functional Requirement
+- Non-functional Requirement
+## Requirement Engineering Processes
+1. Elicitation
+2. Specification
+3. Validation
+4. Change
