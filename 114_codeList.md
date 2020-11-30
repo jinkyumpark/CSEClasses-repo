@@ -3,17 +3,17 @@
 ## Lab
 
 ## HW
-### HW1
+#### HW1
   - [ ] Determine Right Triangle with 3 Sides
   - [ ] Palindrome of Numbers
   - [ ] Integer Divisible by 5 and 6
   - [ ] Encrypted Words
-### HW2
+#### HW2
   - [ ] Palindrome of sentences
   - [ ] Anagrams sentences
   - [ ] Bubble Sort Algorithms
   - [ ] Matrix Multiplication
-### HW3
+#### HW3
   - [ ] Arithematics of Imaginary Number Class
   - [ ] Arithematics of Friction Class
   - [ ] Matrix Sorting
