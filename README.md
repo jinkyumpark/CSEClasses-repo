@@ -37,12 +37,14 @@
 8. CSE 373
 9. CSE 215
 10. CSE 303
-
-11. CSE 306 Operating System
-12. CSE 308 Software Engineering
-13. CSE 304 Compiler Design
-14. CSE 307 Principle of Programming Language
-15. CSE 352 AI
-16. CSE 353 ML
-17. CSE 357 Statistical Method for CS
-18. CSE 351 Intro to Data Science
+11. CSE 306
+12. CSE 308
+13. CSE 304
+14. CSE 307
+15. CSE 352
+16. CSE 353
+17. CSE 357
+18. CSE 351
+19. AMS 310
+20. AMS 311
+21. AMS 301
