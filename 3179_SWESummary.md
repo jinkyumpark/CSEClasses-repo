@@ -73,8 +73,13 @@ why? SW crisis: Big, Many, Long
 3. Requirement Validation
 3. Requirements Documents
 ### SW Evolution
+1. Define System Requirements
+2. Assess Existing Systems
+3. Develop System Change
+4. Modify Systems
+5. New System
 
-CMMi(Capability Maturity Model Integrated)
+### CMMi(Capability Maturity Model Integrated)
 1. Initial - Aware
 2. Repeatable - Trying
 3. Defined - Perfect
@@ -82,3 +87,67 @@ CMMi(Capability Maturity Model Integrated)
 5. Optimizing
 
 # 3 - Agile
+## Agile Overview
+### Motivation
+1. Reduce Overhead
+2. Respond Quickly to Changing Requirement
+
+### Method
+1. Code > Design
+2. Based on Interactive Approach
+3. Deliver SW quickly, evolve quickly
+
+### Manifests
+1. Individuals and Interaction over Process and Tools
+2. Working SW over Comprehensive Documentation
+3. Customer Collaboration over Contract Negotiation
+4. Responding to Change over Following a Plan
+
+### Principles
+1. Customer Involvement
+2. Incremental Delivery
+3. People not Process
+4. Embrace Change
+5. Maintain Simplicity
+
+### Procedures
+1. Select User Stories
+2. Break down the task
+3. Plan release
+
+## XP(Extreme Programming)
+- New versions several times a day
+- Increments to customer every 2 weeks
+- TFD(Test First Development)
+
+### XP Practices
+- Incremental Planning
+- Small releases
+- TFD, TDD
+- Refactoring
+- Pair Programming
+- Collective Owenership
+- Continuous Integration(CI)
+- Sustainable Pace
+- On-site Customer
+
+### XP Principles
+- Incremental Development -> Small, Frequent Release
+- Full-time customer engagement with the team
+- Collective owenership
+- Change supported through regular system release
+- Simplicity -> refactoring
+
+### XP in practice
+- Not widely used
+- practices are widely used
+  - User-stories
+  - Refactoring
+  - TFD
+  - Pair Programming
+  
+### Agile Project Management
+#### Scrum
+1. Initial Phase
+2. Sprint Cycles
+3. Project Closure Phase
