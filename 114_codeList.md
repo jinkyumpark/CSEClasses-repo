@@ -1,6 +1,25 @@
 # CSE 114 Code List
 
 ## Lab
+#### Lab 1-5
+  - [ ] Average Acceleration
+  - [ ] Temperacture Conversion
+  - [ ] Heat Energy Calculation
+  - [ ] Solution of the Quadratic Equation
+  - [ ] Shipping Cost
+  - [ ] 3 Digit Palindrome
+  - [ ] Driving Cost
+#### Lab 6-10
+  - [ ] Determine Circle with Coordinates
+  - [ ] Area of Polygon
+  - [ ] Random Upper Case Letter
+  - [ ] Vehicle Plate Number
+  - [ ] Average of 10 random Integer
+  - [ ] Alphabetical Order of a String
+  - [ ] Telephone Number Formatting
+  - [ ] Check Valid SSN
+  - [ ] Fraction Summation
+  - [ ] Perfect Number Determination
 
 ## HW
 #### HW1
