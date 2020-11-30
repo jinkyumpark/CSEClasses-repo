@@ -41,6 +41,44 @@ why? SW crisis: Big, Many, Long
 5. Operation and Maintenance
 
 ## Incremental Development
-
+1. Outline Description
+2. Waterfall
+  - Specification
+  - Development
+  - Validation
+- Pros
+  - No Interdependent Component
+  - Developed Independent with Each Other
+- Cons
+  - The Process is not Visible
+  - Documentations are not easy
+  - Degrade
+  
 ## Integration and Configuration(CBD)
+1. SW Reuse: COTS(Commercial-off-the-shelf)
+2. Configuration
+- Pros
+  - Reduced Costs and Risks(not developed from scratch)
+  - Faster Delivert
+- Cons
+  - Requirement Compromises
+  - Loss of Control over Evolution
 
+## Overview of SW Process
+### Requirement Engineering -> Requirement Documents
+1. Requirement Elicitation and Analysis
+  - System Description
+2. Requirement Specification
+  - User and System Requirements
+3. Requirement Validation
+3. Requirements Documents
+### SW Evolution
+
+CMMi(Capability Maturity Model Integrated)
+1. Initial - Aware
+2. Repeatable - Trying
+3. Defined - Perfect
+4. Managed - SW Process + SPI(Quality Management)
+5. Optimizing
+
+# 3 - Agile
