@@ -26,5 +26,21 @@ why? SW crisis: Big, Many, Long
 3. V&V
 4. SE/M
 ## SW Process Model
-1. Waterfall: Plan-deriven
-2. Interactive: Agile, planning incremental
+- Waterfall: Plan-deriven
+- Interactive: Agile, planning incremental
+  - XP
+  - TDD
+  - PP
+- Integration & Configuration(CBD(Component Based Development)
+
+## Waterfall
+1. Requirement Definition - SRS
+2. System and SW Design - SDS
+3. Implementation and Unit Testing - Coding
+4. Integration and System Testing - IT
+5. Operation and Maintenance
+
+## Incremental Development
+
+## Integration and Configuration(CBD)
+
