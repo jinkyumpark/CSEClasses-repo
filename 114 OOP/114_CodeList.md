@@ -20,6 +20,35 @@
   - [ ] Check Valid SSN
   - [ ] Fraction Summation
   - [ ] Perfect Number Determination
+#### Lab11-15
+  - [ ] Triangle Pattern
+  - [ ] Integer in reverse
+  - [ ] Area of Pentagon
+  - [ ] Twin Primes
+  - [ ] Mean % Standard Deviation
+  - [ ] Distinct Number in array
+  - [ ] Merge Sorted Array
+  - [ ] Reverse Original Array
+#### Lab16-20
+  - [ ] Convert Scores to Letter Grade
+  - [ ] Occurence of Number in an Array
+  - [ ] Locate Largest Number in an Array
+  - [ ] Determine whether Matrix is Positive Markov Matrix
+  - [ ] Occurence of Random Number
+  - [ ] Sum of Major Diagonal
+  - [ ] Rectangle Class
+  - [ ] Quadratic Equation Class
+  - [ ] Stock Class
+  - [ ] n-side Polygon Class
+#### Lab21-25
+  - [ ] Randomly generate Matrix and count
+  - [ ] Linear Equation Class
+  - [ ] Matrix Sorting
+  - [ ] Integer Class
+  - [ ] Decimal Binary Conversion
+  - [ ] Triangle Class Inherited from GeometricObject
+  - [ ] Person, Student, Employee Class
+  
 
 ## HW
 #### HW1
