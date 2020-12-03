@@ -1,10 +1,9 @@
 import java.util.Scanner;
+//Implement
+//1. Error handling: ask user to enter coordinate again if not valid, if user enters coordinate already filled in
+//-2. Need to rotate it 
 
-//Slight variation of connect four, just need to select column and pieces drop from above
-
-//1. It needs to be rotated to clockwise
-
-public class FinalProject0 {
+public class ConnectFour0 {
 	//controller 
 	public static void main(String[] args) {
 		Scanner stdin = new Scanner(System.in);
@@ -21,21 +20,21 @@ public class FinalProject0 {
 			count++;
 			printGame(game);
 			if(count % 2 == 0) {
-				System.out.print("Y: ");
-				int redPositionCol = stdin.nextInt();
-				int countPos = game[0].length-1;
-				while(game[redPositionCol][countPos] != -1) {
-					countPos--;
-				}
-				game[redPositionCol][countPos] = 0;
-			}else {
 				System.out.print("R: ");
-				int yellowPositionCol = stdin.nextInt();
-				int countPos = game[0].length-1;
-				while(game[yellowPositionCol][countPos] != -1) {
+				int redPositionCol = stdin.nextInt();
+				int countPos = game.length-1;
+				while(game[countPos][redPositionCol-1] != -1) {
 					countPos--;
 				}
-				game[yellowPositionCol][countPos] = 1;
+				game[countPos][redPositionCol-1] = 0;
+			}else {
+				System.out.print("Y: ");
+				int yellowPositionCol = stdin.nextInt();
+				int countPos = game.length-1;
+				while(game[countPos][yellowPositionCol-1] != -1) {
+					countPos--;
+				}
+				game[countPos][yellowPositionCol-1] = 1;
 			}
 			gameInProgress = gameProgress(game);			
 		}
@@ -130,8 +129,7 @@ public class FinalProject0 {
 		}
 		return whoWins;
 	}
-	
-	
+		
 	//view
 	public static void printGame(int[][] game) {
 		for(int i = 0; i < game.length; i++) {
@@ -149,7 +147,8 @@ public class FinalProject0 {
 				}
 			}
 		}
-		for(int i = 1; i <= game.length; i++) {
+		System.out.print(" ");
+		for(int i = 1; i < game.length; i++) {
 			System.out.print(i + " ");
 		}
 		System.out.println();
