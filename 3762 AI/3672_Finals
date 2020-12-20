@@ -1,0 +1,33 @@
+#1-a
+def chng_int_str(num: str) -> str:
+    count = 0
+    out_str = ''
+    for i in range(len(num)):
+        out_str += num[-i]
+        count += 1
+        if count % 3 == 0:
+            out_str += ','
+    out_str = out_str[::-1]
+    return out_str
+
+
+num = '1234567'
+modified_num = chng_int_str(num)
+print(modified_num)
+
+#1-b
+def chng_str_int(num:str)->str:
+	out_str = num[::-1]
+	for i in range(1, len(num)+1):
+		if i % 3 == 0:
+			out_str.replace(i, '')
+	out_str = out_str[::-1]
+	return out_str
+
+num = '1,234,567'
+modified_num = chng_str_int(num)
+print(modified_num)
+
+
+#2
+import numpy as np
